@@ -1,6 +1,6 @@
 {
   "name": "ookive",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Permanent persistent storage, clientside and serverside",
   "main": "build/ookive.js",
   "directories": {
@@ -11,6 +11,9 @@
     "apage": "latest",
     "coffee-script": "latest",
     "nodemon": "latest"
+  },
+  "dependencies": {
+    "ookonsole": "latest"
   },
   "scripts": {
     "hi": "open .; open index.html; open test/run-test.html; subl .",
@@ -23,6 +26,16 @@
     "url": "git+https://github.com/richplastow/ookive.git"
   },
   "keywords": [
+    "undo",
+    "history",
+    "archive",
+    "database",
+    "notifications",
+    "push",
+    "ws",
+    "websockets",
+    "persistent",
+    "localstorage",
     "CoffeeScript"
   ],
   "author": "Rich Plastow <rich@richplastow.com> (http://richplastow.com/)",
